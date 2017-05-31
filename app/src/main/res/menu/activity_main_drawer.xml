@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idEventosDisponiveis"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Eventos Disponíveis" />
+        <item
+            android:id="@+id/idMeusEventos"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Meus Eventos" />
+        <item
+            android:id="@+id/idMinhaConta"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Minha Conta" />
+    </group>
+
+    <item android:title="Outras ">
+        <menu>
+            <item
+                android:id="@+id/idSair"
+                android:icon="@drawable/ic_person_outline_black_24dp"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>
